@@ -1,0 +1,18 @@
+header.total{
+    background-color: red;
+    height: 100vh;
+}
+navbar{
+    position: absolute;
+}
+.nav-link:hover{
+    color: rgba(255, 0, 0, 0.753) !important;
+}
+main{
+    background-color: green;
+    height: 100px;
+}
+footer{
+    background-color: var(--bs-gray-900);
+    height: 100px;
+}
