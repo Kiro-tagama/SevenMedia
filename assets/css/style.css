@@ -1,0 +1,44 @@
+navbar{
+    position: absolute;
+}
+label{
+    cursor: pointer;
+}
+ul.navbar-nav{
+    margin-left: auto;
+}
+.nav-link:hover{
+    color: rgba(255, 0, 0, 0.76) !important;
+}
+
+footer{
+    color: #fff;
+    background-color: var(--bs-gray-900);
+    padding: 15px 0;
+}
+
+.btt-s{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: solid 3px black;
+    border-radius:100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.btt-s svg{
+    margin-top: 1px;
+    width: 20px;
+}
+/* troca de conteudo main */
+#geral div{
+    display: none;
+}
+#geral input[type="radio"]{display: none;}
+#geral input[type="radio"]:checked+div{
+    background-color: #aaa;
+    display: block;
+}
