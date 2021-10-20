@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0f9b228ce4.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="../css/style.css"> esse é o correto -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
     <title>Seven-Media</title>
 </head>
 <body>
@@ -37,8 +40,48 @@
     <main id="geral">
         <!-- conteudo principal -->
         <input id="c1" type="radio" name="grupo" checked>
-        <div  style="background-color: aqua;height: 1500px;">oi coisa
-            <img src="1.png" alt="">
+        <div class="page-1">
+            <section class="title">
+                <section class="container position-absolute top-50 start-50 translate-middle">
+                    <h1>Masculinidade</h1>
+                    <p>preconceito contra a masculinidade de cada pessoa e individuo</p>
+                </section>
+                <a href="#intro"><i class="fas fa-sort-down position-absolute top-0 start-50 translate-middle-x"></i></a>
+            </section>
+            <section class="container" id="intro">
+                <h3>introdução</h3>
+                <p>
+                Queremos entender com este projeto, como a figura MASCULINA é representada pela Sociedade. <br>
+                Se nós, homens, conseguimos passar por cima de todo estigma social do "macho alpha" ideal. <br>
+                Hoje, envolve muitos desafios, incluindo: questionar a cultura patriarcal que prevalece há séculos… Amadurecer emocionalmente e livrar-se das obrigações machistas do modelo tradicional de masculinidade. <br>
+                A masculinidade sexualizada de uma massa. O quanto problemático é a omissão de sentimentos. E entender, porque homens não choram?
+                </p>
+                <section class="d-flex justify-content-center">
+                    <section class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <section class="card-body">
+                            <h5 class="card-title">page 2</h5>
+                            <p class="card-text">example text</p>
+                            <label for="c2" class="btn btn-primary">Go somewhere</label>
+                        </section>
+                    </section>
+                    <section class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <section class="card-body">
+                            <h5 class="card-title">page 3</h5>
+                            <p class="card-text">example text</p>
+                            <label for="c3" class="btn btn-primary">Go somewhere</label>
+                        </section>
+                    </section>
+                </section>
+                <section>
+                    <h1>integrantes
+                    </h1>
+                    <section class="d-flex justify-content-center">
+
+                    </section>
+                </section>
+            </section>
         </div>
 
         <input id="c2" type="radio" name="grupo">
@@ -47,9 +90,9 @@
         <input id="c3" type="radio" name="grupo">
         <div  style="background-color: yellow;height: 1500px;">oi</div>
     </main>
-    <div class="btt-s" alt="back to top">
+    <!-- <div class="btt-s" alt="back to top">
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-up" class="svg-inline--fa fa-angle-double-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M177 255.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 351.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 425.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1zm-34-192L7 199.7c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l96.4-96.4 96.4 96.4c9.4 9.4 24.6 9.4 33.9 0l22.6-22.6c9.4-9.4 9.4-24.6 0-33.9l-136-136c-9.2-9.4-24.4-9.4-33.8 0z"></path></svg>
-    </div>
+    </div> -->
     
     <footer>
         <div class="container">
@@ -73,19 +116,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <!-- bootstrap -->
-    <script>
-        var bt1 = document.querySelector("label.navbar-brand").bt
-var bt2 = document.querySelector("label.nav-link").bt
-var bt5 = document.querySelector("div.btt-s").bt
 
-
-var bt=addEventListener("click", back_top)
-
-function back_top() {
-    window.scrollTo(0,0)
-}
-
-    </script>
-    <script src="../js/script.js"></script>
+    <script src="../js/btn_top.js"></script>
 </body>
 </html>

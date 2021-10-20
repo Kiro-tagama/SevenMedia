@@ -1,0 +1,24 @@
+div.page-1{
+    background-color: rgb(255, 174, 0);
+}
+.page-1 .container{
+    padding: 12px 12px;
+}
+.page-1 .title{
+    background-color: aqua;
+    height: 92.5vh;
+    text-align: center;
+}
+.page-1 .title a{
+    position: absolute;
+    bottom: 5%;
+    font-size: 50px;
+    color: grey;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.page-1 .card{
+    margin: 5px;
+}

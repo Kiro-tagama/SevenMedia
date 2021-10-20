@@ -39,6 +39,5 @@ footer{
 }
 #geral input[type="radio"]{display: none;}
 #geral input[type="radio"]:checked+div{
-    background-color: #aaa;
     display: block;
 }
