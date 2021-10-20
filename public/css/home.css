@@ -13,12 +13,25 @@ div.page-1{
     position: absolute;
     bottom: 5%;
     font-size: 50px;
-    color: grey;
-    background-color: red;
+    color: rgba(128, 128, 128, 0.692);
+    background-color: rgba(255, 255, 255, 0.521);
     width: 50px;
     height: 50px;
     border-radius: 50px;
 }
+.page-1 .title a i {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+}
+.page-1 .title a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
 .page-1 .card{
     margin: 5px;
+}
+.page-1 .integrantes .card{
+    background-color: rgba(255, 255, 255, 0.226);
+
 }
