@@ -5,7 +5,7 @@ div.page-1{
     padding: 12px 12px;
 }
 .page-1 .title{
-    background-image: url("/public/imgs/fundo-home2.jpeg");
+    background-image: url("../imgs/fundo-home2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 92.5vh;
