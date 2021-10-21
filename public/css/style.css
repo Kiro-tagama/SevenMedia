@@ -1,5 +1,5 @@
-navbar{
-    position: absolute;
+*{
+    font-family:'Times New Roman', Times, serif;
 }
 label{
     cursor: pointer;

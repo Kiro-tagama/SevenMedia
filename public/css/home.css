@@ -1,17 +1,24 @@
 div.page-1{
-    background-color: rgb(255, 174, 0);
+    background-color: orange;
 }
 .page-1 .container{
     padding: 12px 12px;
 }
 .page-1 .title{
-    background-color: aqua;
+    background-image: url("/public/imgs/fundo-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 92.5vh;
     text-align: center;
+    /* text-shadow: .5px .5px rgba(255, 255, 255, 0.651); */
+}
+.page-1 .title .intro {
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 50px;
 }
 .page-1 .title a{
     position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     font-size: 50px;
     color: rgba(128, 128, 128, 0.692);
     background-color: rgba(255, 255, 255, 0.521);
@@ -28,10 +35,19 @@ div.page-1{
     color: black;
     background-color: rgb(255, 255, 255);
 }
+.page-1 .integrantes{
+    align-items: center;
+}
 .page-1 .card{
     margin: 5px;
+    background-color: rgba(255, 255, 255, 0.226);
+
 }
 .page-1 .integrantes .card{
     background-color: rgba(255, 255, 255, 0.226);
 
+}
+/* .page-1 .mb-3 img:hover, */
+.page-1 .integrantes .card img:hover{
+    transform: scaleX(-1);
 }
