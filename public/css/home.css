@@ -13,7 +13,7 @@ div.page-1{
     /* text-shadow: .5px .5px rgba(255, 255, 255, 0.651); */
 }
 .page-1 .title .intro {
-    background-color: rgba(255, 255, 255, 0.767);
+    background-color: rgba(255, 255, 255, 0.45);
     border-radius: 50px;
 }
 .page-1 .title a{
@@ -33,7 +33,6 @@ div.page-1{
 }
 .page-1 .title a:hover{
     color: black;
-    background-color: rgb(255, 255, 255);
 }
 .page-1 .integrantes{
     align-items: center;

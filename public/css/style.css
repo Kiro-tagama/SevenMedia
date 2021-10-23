@@ -18,10 +18,8 @@ footer{
 }
 
 .btt-s{
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    border: solid 3px black;
+    color: rgba(255, 255, 255, 0.329);
+    font-size: xx-large;
     border-radius:100px;
     position: fixed;
     bottom: 30px;
@@ -29,9 +27,8 @@ footer{
     text-align: center;
     cursor: pointer;
 }
-.btt-s svg{
-    margin-top: 1px;
-    width: 20px;
+.btt-s:hover{
+    color:rgb(255, 255, 255);
 }
 /* troca de conteudo main */
 #geral div{
