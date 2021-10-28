@@ -17,8 +17,8 @@ footer{
     padding: 15px 0;
 }
 
-.btt-s{
-    color: rgba(255, 255, 255, 0.329);
+footer .backT{
+    color: rgba(5, 5, 5, 0.329);
     font-size: xx-large;
     border-radius:100px;
     position: fixed;
@@ -27,8 +27,8 @@ footer{
     text-align: center;
     cursor: pointer;
 }
-.btt-s:hover{
-    color:rgb(255, 255, 255);
+footer .backT:hover{
+    color:rgb(0, 0, 0);
 }
 /* troca de conteudo main */
 #geral div{
