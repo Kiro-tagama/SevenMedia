@@ -11,6 +11,7 @@
     <!-- <link rel="stylesheet" href="../css/style.css"> esse é o correto -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/dados.css">
     <title>Seven-Media</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
     </header>
 
     <main id="geral">
-        <input id="c1" type="radio" name="grupo" checked>
+        <input id="c1" type="radio" name="grupo" >
         <div class="page-1"> <!--home-->
             <section class="title">
                 <a href="#bt_s" id="bt_s" class="position-absolute start-50 translate-middle"><i class="fas fa-sort-down"></i></a>
@@ -67,7 +68,7 @@
                                 <h5 class="card-title">Dados</h5>
                                 <p class="card-text">dados que foram coletas e agora serão explicados para que você conheca melhor esse mundo em que vivemos
                                 <br>
-                                <small class="text-muted">imagem tirada do site <a href="https://datafloq.com/read/how-cope-three-most-tedious-big-data-obstacles/6256">datafloq</a></small>
+                                <small class="text-muted">pergunta feita aos entrevistados: <br> imagem tirada do site <a href="https://datafloq.com/read/how-cope-three-most-tedious-big-data-obstacles/6256">datafloq</a></small>
                                 </p>
                                 <label for="c2" class="btn btn-dark">Veja</label>
                             </section>
@@ -179,11 +180,89 @@
             </section>
         </div>
         <!-- -->
-        <input id="c2" type="radio" name="grupo">
+        <input id="c2" type="radio" name="grupo" checked>
         <div class="page-2"> <!--dados-->
-            oi
+            <section class="container">
+                <h1 class="text-center">Dados de pesquisa</h1>
+                <p>Os gráficos abaixo está baseado nas pesquisas feitas por nossa equipe de pesquisa.
+                <br>
+                <small>algumas pesquisas foram realizadas pelo google forms</small>
+                </p>
+                <!-- cartão -->
+                <section class="card mb-3">
+                    <section class="row g-0" style="padding: 5px;">
+                        <section class="col-md-8">
+                            <section class="card-body">
+                                <h5 class="card-title">Gênero do ídolo</h5>
+                                <p class="card-text">Este gráfico mostra o foco de visão sobre o idolo da maioria das pessoas. (modificar texto...)</p>
+                                <hr>
+                                <small class="text-muted">pergunta feita aos entrevistados: <br> "Sempre temos alguém em quem nos inspiramos. Na forma de agir, falar, se vestir e até seguir as mesmas filosofias de vidas. Qual o gênero do seu maior ídolo?"</small>
+                            </section>
+                        </section>
+                        <section class="col-md-4">
+                            <section class="canvas">
+                                <canvas id="g_influencia"></canvas>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <!-- cartão -->
+                <hr>
+                <section class="card mb-3">
+                    <section class="row g-0" style="padding: 5px;">
+                        <section class="col-md-8">
+                            <section class="card-body">
+                                <h5 class="card-title">Quem paga a conta?</h5>
+                                <p class="card-text">Vemos que uma maior porcentagem dos que responderam à pesquisa concordam que a conta deve ser dividida entre o casal. (...)</p>
+                                <hr>
+                                <small class="text-muted">pergunta feita aos entrevistados: <br> "Em um jantar ou passeio, o garçom entrega a comanda para uma mulher. Você concorda que ela pague sozinha? "</small>
+                            </section>
+                        </section>
+                        <section class="col-md-4">
+                            <section class="canvas">
+                                <canvas id="pg_conta"></canvas>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <hr>
+                <section class="card mb-3">
+                    <section class="row g-0" style="padding: 5px;">
+                        <section class="g-col-6">
+                            <section class="card-body">
+                                <h5 class="card-title">Você demonstra seus sentimentos</h5>
+                                <p class="card-text">Quais seram os motivos de tanta insegurança que anda existe nas pessoas a ponto de elas se fecharem?</p>
+                                <hr>
+                                <small class="text-muted">pergunta feita aos entrevistados: <br> "Sabemos que todo mundo tem dificuldades de demonstrar sentimentos. De 0 a 10, qual é seu grau de dificuldade (sendo 0 nenhuma dificuldade, 5 dificuldade mediana e 10 muita dificuldade)"</small>
+                            </section>
+                        </section>
+                        <section class="g-col-4">
+                            <section class="canvas">
+                                <canvas id="def_sent"></canvas>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <br>
+            </section>
         </div>
         <!-- -->
+        <input id="c3" type="radio" name="grupo">
+        <div class="page-3"> <!--parte-3-->
+            <section class="alert alert-danger" role="alert">
+                <h4 class="alert-heading">olá</h4>
+                <p>Está parte do site ainda não foi desenvolvida peço que volte para home ou para os dados</p>
+                <hr>
+                <p>
+                    voltar para 
+                    <label for="c1" style="text-decoration: underline;">Home<label>
+                </p>
+                <p>
+                    voltar para
+                    <label for="c2" style="text-decoration: underline;">Dados<label>
+                </p>
+            </section>
+        </div>
 
     </main>
     
@@ -212,6 +291,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <!-- bootstrap -->
+    
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script src="../js/graphics.js"></script>
+    <!-- chart -->
 
     <script src="../js/btn_top.js"></script>
 </body>
