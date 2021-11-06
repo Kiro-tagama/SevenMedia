@@ -1,8 +1,11 @@
 .page-2{
     background-color: #c7c6c7;
 }
+.page-2 h1{
+    padding: 35px;
+}
 .page-2 section .card{
-    background-color: #00000000;
+    background: #ffffff00;
     max-width: 700px;
     margin: auto;
 }
