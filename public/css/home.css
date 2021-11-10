@@ -49,7 +49,7 @@ div.page-1{
     
 }
 .page-1 .integrantes .card img:hover{
-    transform: scaleX(-1);
+    /* transform: scaleX(-1); */
 }
 .page-1 .card-arq img{
     min-height: 100%;
