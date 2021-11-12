@@ -5,19 +5,19 @@
 .page-2 h1{
     padding: 35px;
 }
-.page-2 section .card{
+.page-2 div .card{
     background:rgba(255, 255, 255, 0.226);
     max-width: 700px;
     margin: auto;
 }
-.page-2 section .canvas{
+.page-2 div .canvas{
     max-width: 345px;
     margin:auto
 }
 
 /* 751px */
 @media (min-width:751px) {
-    .page-2 section .card{
+    .page-2 div .card{
         width: 640px;
     }
 }

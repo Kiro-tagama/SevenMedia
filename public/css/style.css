@@ -37,10 +37,10 @@ footer .backT:hover{
     color:rgb(0, 0, 0);
 }
 /* troca de conteudo main */
-#geral div{
+#geral section{
     display: none;
 }
 #geral input[type="radio"]{display: none;}
-#geral input[type="radio"]:checked+div{
+#geral input[type="radio"]:checked+section{
     display: block;
 }
