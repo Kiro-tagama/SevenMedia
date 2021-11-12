@@ -42,11 +42,13 @@ div.page-1{
 .page-1 .card{
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.226);
-    
 }
 .page-1 .integrantes .card{
     background-color: rgba(255, 255, 255, 0.226);
-    
+    width: 13rem;
+}
+.page-1 .integrantes .card a{
+    margin: 2px;
 }
 .page-1 .integrantes .card img:hover{
     /* transform: scaleX(-1); */
