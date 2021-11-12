@@ -7,14 +7,17 @@
 }
 .page-2 section .card{
     background:rgba(255, 255, 255, 0.226);
-    max-width: 600px;
-    min-height: 200px;
+    max-width: 700px;
     margin: auto;
 }
 .page-2 section .canvas{
     max-width: 345px;
-    min-width: 200px;
     margin:auto
 }
 
-/* os cartoes n estão padronizado acima de 751px */
+/* 751px */
+@media (min-width:751px) {
+    .page-2 section .card{
+        width: 640px;
+    }
+}

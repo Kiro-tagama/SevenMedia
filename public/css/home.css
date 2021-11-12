@@ -62,3 +62,8 @@ div.page-1{
         background-size: 150%;
     }
 }
+@media (max-width:459px) {
+    .page-1 .integrantes .card{
+        width: 10rem;
+    }
+}
