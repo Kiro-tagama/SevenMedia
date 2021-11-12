@@ -1,14 +1,16 @@
 .page-2{
-    background-color: #c7c6c7;
     padding-top: 61px;
 }
 .page-2 h1{
     padding: 35px;
 }
 .page-2 div .card{
-    background:rgba(255, 255, 255, 0.226);
+    background:#262c2e;
     max-width: 700px;
     margin: auto;
+}
+.page-2 div .card small{
+    color: rgb(218, 183, 183);
 }
 .page-2 div .canvas{
     max-width: 345px;

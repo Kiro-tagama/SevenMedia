@@ -1,6 +1,5 @@
-.page-1{
-    background-color: #c7c6c7;
-}
+/* .page-1{
+} */
 .page-1 .container{
     padding: 12px 12px;
 }
@@ -41,14 +40,19 @@
 }
 .page-1 .card{
     margin: 5px;
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: #262c2e;
 }
 .page-1 .integrantes .card{
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: #262c2e;
     width: 13rem;
 }
 .page-1 .integrantes .card a{
     margin: 2px;
+}
+.page-1 .card label,
+.page-1 .integrantes .card a{
+    border:2.5px solid rgb(143, 143, 143);
+    color: rgb(214, 214, 214);
 }
 .page-1 .integrantes .card img:hover{
     /* transform: scaleX(-1); */

@@ -12,7 +12,7 @@ const b1_1= new Chart(b1,{
             'Tik Tok',
             'WhatsApp'],
         datasets: [{
-            label: 'Rede socal',
+            label: 'Rede social',
             data: [18,6,3,5,9,10,12],
             backgroundColor: [
                 'rgba(75, 192, 192, 0.2)',
@@ -25,6 +25,7 @@ const b1_1= new Chart(b1,{
     },
     options: {
         indexAxis: 'x', //aqui define se vai ficar inclinado ou de pé por x ou y
+        color:'#ddd'
     }
 });
 var b2= document.getElementById("f2-consumo").getContext('2d')
@@ -56,6 +57,7 @@ const b2_1= new Chart(b2,{
     },
     options: {
         indexAxis: 'x', //aqui define se vai ficar inclinado ou de pé por x ou y
+        color:'#ddd'
     }
 });
 

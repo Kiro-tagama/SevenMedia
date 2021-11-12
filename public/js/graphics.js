@@ -29,8 +29,9 @@ const pg_c = new Chart(pg_conta,{
         labels: [
             'Eu devo pagar tudo', //1
             'Ela deve pagar toda a conta', //2
-            'Devemos dividir a conta' //3
+            'Devemos dividir a conta', //3
         ],
+        color:['#ddd'],
         datasets: [{
             label: 'My First Dataset',
             data: [2+1,1+4,21+6] , //respostas inconsistentes então acrescentar 1=+1,2=+4 3=+6
@@ -64,6 +65,7 @@ const d_s= new Chart(def_sent,{
     },
     options: {
         indexAxis: 'x', //aqui define se vai ficar inclinado ou de pé por x ou y
+        color:'#ddd'
     }
 });
 
