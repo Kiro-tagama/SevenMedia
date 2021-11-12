@@ -9,20 +9,30 @@
 body{
      background-color: #303739;
      color: rgb(214, 214, 214);
-}   
+} 
+header nav{
+    background-color: rgba(17, 17, 17, 0.9);
+}  
 label{
     cursor: pointer;
 }
 ul.navbar-nav{
     margin-left: auto;
 }
-.nav-link:hover{
-    color: rgba(255, 0, 0, 0.76) !important;
+nav label{
+    padding: 8px;
+    color: rgb(154,154,154);
+    font-weight: 500;
+    margin-right: 20px;
+}
+nav label:hover{
+    color: rgba(255, 0, 0, 0.76);
+    border-bottom: 2px solid #790e1b;
 }
 
 footer{
     color: #fff;
-    background-color: var(--bs-gray-900);
+    background-color: #111;
     padding: 15px 0;
 }
 
