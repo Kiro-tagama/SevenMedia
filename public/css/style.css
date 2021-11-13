@@ -19,13 +19,13 @@ label{
 ul.navbar-nav{
     margin-left: auto;
 }
-nav label{
+nav ul label{
     padding: 8px;
     color: rgb(154,154,154);
     font-weight: 500;
     margin-right: 20px;
 }
-nav label:hover{
+nav ul label:hover{
     color: rgba(255, 0, 0, 0.76);
     border-bottom: 2px solid #790e1b;
 }
