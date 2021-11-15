@@ -14,7 +14,8 @@
 }
 .page-2 div .canvas{
     max-width: 345px;
-    margin:auto
+    margin:auto;
+    padding: 2px;
 }
 
 /* 751px */
