@@ -37,7 +37,7 @@ footer{
 }
 
 footer .backT{
-    color: rgba(5, 5, 5, 0.329);
+    color: rgba(255, 255, 255, 0.329);
     font-size: xx-large;
     border-radius:100px;
     position: fixed;
@@ -47,7 +47,7 @@ footer .backT{
     cursor: pointer;
 }
 footer .backT:hover{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 /* troca de conteudo main */
 #geral section{

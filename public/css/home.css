@@ -71,3 +71,10 @@
         width: 10rem;
     }
 }
+@media (min-width:1450px) {
+    .page-1 .title{
+        background-position-x: center;    
+        background-position-y:top;    
+    }
+    
+}
