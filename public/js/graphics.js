@@ -36,9 +36,9 @@ const pg_c = new Chart(pg_conta,{
             label: 'My First Dataset',
             data: [2+1,1+4,21+6] , //respostas inconsistentes então acrescentar 1=+1,2=+4 3=+6
             backgroundColor: [
-                'rgb(75, 192, 192)',
-                'rgb(54, 162, 235)',
-                'rgb(153, 102, 255)'
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)',
+                'rgba(255, 205, 86)'
             ],
             hoverOffset: 4,
             borderColor:['rgba(0, 0, 0, .2)']
