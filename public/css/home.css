@@ -21,6 +21,7 @@
     bottom: 1%;
     font-size: 50px;
     color: rgba(128, 128, 128, 0.692);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -28,7 +29,7 @@
 }
 .page-1 .title a i {
     position: absolute;
-    bottom: 7px;
+    bottom: 10px;
     left: 10px;
 }
 .page-1 .title a:hover{
@@ -73,7 +74,7 @@
 @media (min-width:1450px) {
     .page-1 .title{
         background-position-x: center;    
-        background-position-y:top;    
+        background-position-y: 1%;    
     }
     
 }
