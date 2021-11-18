@@ -188,18 +188,18 @@ const g6_1 = new Chart(g6,{
             'Minhas vivências/experiências',
             'Educação dos meus pais',
             'Círculo de amizades',
-            'Redes sociais',
-            'Outros'
+            'Outros',
+            'Redes sociais'
         ],
         datasets: [{
             label: 'My First Dataset',
-            data: [13,4,3,0,1], //respostas inconsistentes então acrescentar +2H +3NB
+            data: [13,4,3,1,0], //respostas inconsistentes então acrescentar +2H +3NB
             backgroundColor: [
                 'rgb(255, 99, 132)',
                 'rgb(54, 162, 235)',
                 'rgb(255, 205, 86)',
-                'rgb(150, 25, 100)',
                 'rgb(40, 205, 90)',
+                'rgb(150, 25, 100)',
             ],
             hoverOffset: 4,
             borderColor:['rgba(0, 0, 0, .2)']
