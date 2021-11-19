@@ -35,12 +35,37 @@
 .page-1 .title a:hover{
     color: black;
 }
-.page-1 .integrantes{
-    align-items: center;
-}
 .page-1 .card{
     margin: 5px;
     background-color: #262c2e;
+}
+/* mvv */
+.page-1 .mvv .card{
+    width: 20rem;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.page-1 .mvv .card div{
+    width: 46px;
+    height: 46px;
+    font-size:x-large;
+    background-color: #262c2e;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #212728;
+}
+.page-1 .mvv h5{
+    margin-top: 15px;
+}
+.page-1 .mvv li i{
+    margin-right: 10px;
+}
+.page-1 .mvv li{
+    /* list-style-type: none; */
+}
+/* integrantes */
+.page-1 .integrantes{
+    align-items: center;
 }
 .page-1 .integrantes .card{
     background-color: #262c2e;
@@ -51,11 +76,14 @@
 }
 .page-1 .card label,
 .page-1 .integrantes .card a{
-    border:2.5px solid rgb(143, 143, 143);
+    border: 1px solid #212728;
     color: rgb(214, 214, 214);
 }
-.page-1 .integrantes .card img:hover{
-    /* transform: scaleX(-1); */
+.page-1 .integrantes .card a{
+    font-size: 1.2rem;
+}
+.page-1 .integrantes .card-body{
+    padding-bottom: 0;
 }
 .page-1 .card-arq img{
     min-height: 100%;
