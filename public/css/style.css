@@ -1,10 +1,7 @@
 *{
-    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-    /* font-family:cursive; */
-    /* font-family:monospace;  */
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scrollbar-width: auto;
+    scrollbar-color: #790e1b #111;
 }
 body{
      background-color: #303739;
@@ -49,6 +46,20 @@ footer .backT{
 footer .backT:hover{
     color:rgb(255, 255, 255);
 }
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #111;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #790e1b;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #111;  /* creates padding around scroll thumb */
+  }
+
 /* troca de conteudo main */
 #geral section{
     display: none;

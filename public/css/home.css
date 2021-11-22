@@ -5,12 +5,26 @@
 }
 .page-1 .title{
     background-color: #790e1b;
-    background-image: url("../images/1.png");
+    /* background-image: url("../images/1.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
     text-align: center;
+    margin: 0;
+}
+.page-1 .title h1{
+    color: rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 70px rgba(0, 0, 0, 0.301);
+    font-size: 50rem;
+}
+.page-1 .title .sm{
+    font-weight: 400;
+    color: black;
+    text-shadow: 5px 5px 0 #00000088;
+    width: 100%;
+    font-size: 7rem;
 }
 .page-1 .title .intro {
     background-color: rgba(255, 255, 255, 0.45);
@@ -90,13 +104,27 @@
 }
 @media (max-width: 800px) {
     .page-1 .title{
-        background-color: #790e1b;
         background-size: 150%;
     }
 }
 @media (max-width:459px) {
     .page-1 .integrantes .card{
         width: 10rem;
+    }
+    .page-1 .title h1{
+        font-size: 40rem;
+    }
+    .page-1 .title .sm{
+        font-size: 6rem;
+    }
+}
+/* fold and iphone5 */
+@media (max-width:320px) { 
+    .page-1 .title h1{
+        font-size: 30rem;
+    }
+    .page-1 .title .sm{
+        font-size: 5rem;
     }
 }
 @media (min-width:1450px) {
