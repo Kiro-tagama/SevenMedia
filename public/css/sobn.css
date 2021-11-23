@@ -1,0 +1,122 @@
+/* .page-5{
+} */
+.page-5 .container{
+    padding: 12px 12px;
+}
+.page-5 .title{
+    background-color: #000000;
+    background-image: url("../images/h-fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.page-5 .title .sm{
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 7px #ffffff4b;
+    width: 100%;
+    font-size: 4rem;
+    position:absolute;
+    bottom: 10%;
+} 
+.page-5 .title .logo{
+    margin: 0;
+}
+.page-5 .title .logo img{
+    background: none;
+    border: none;
+    min-width: 300px;
+}
+.page-5 .title .intro {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 50px;
+}
+.page-5 .title a{
+    position: absolute;
+    bottom: 1%;
+    font-size: 50px;
+    color: rgba(128, 128, 128, 0.692);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+}
+.page-5 .title a i {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.page-5 .title a:hover{
+    color: rgb(255, 255, 255);
+}
+.page-5 .card{
+    margin: 5px;
+    background-color: #ed9aa2;
+}
+/* mvv */
+.page-5 .mvv .card{
+    width: 20rem;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.page-5 .mvv .card div{
+    width: 46px;
+    height: 46px;
+    font-size:x-large;
+    background-color: #ed9aa2;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #212728;
+}
+.page-5 .mvv h5{
+    margin-top: 15px;
+}
+.page-5 .mvv li i{
+    margin-right: 10px;
+}
+
+/* integrantes */
+.page-5 .integrantes{
+    align-items: center;
+}
+.page-5 .integrantes .card{
+    width: 13rem;
+}
+.page-5 .integrantes .card a{
+    margin: 2px;
+}
+.page-5 .card label,
+.page-5 .integrantes .card a{
+    border: 1px solid #212728;
+    color: rgb(214, 214, 214);
+}
+.page-5 .integrantes .card a{
+    font-size: 1.2rem;
+}
+.page-5 .integrantes .card-body{
+    padding-bottom: 0;
+}
+.page-5 .card-arq img{
+    min-height: 100%;
+}
+
+@media (max-width:459px) {
+    .page-5 .integrantes .card{
+        width: 10rem;
+    }
+   
+}
+
+@media (min-width:1450px) {
+    .page-5 .title{
+        background-position-x: center;    
+        background-position-y: 1%;    
+    }
+    
+}
