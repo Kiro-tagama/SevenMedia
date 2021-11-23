@@ -1,0 +1,17 @@
+.page-3 .card{ 
+    max-width: 500px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.page-3 iframe{
+    width: 560px;
+    height: 315px;
+    margin: 10px;
+}
+@media (max-width:700px) {
+    .page-3 iframe{
+        width: 80%;
+        height: 80%;
+    }
+}
