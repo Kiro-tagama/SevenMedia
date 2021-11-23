@@ -1,9 +1,9 @@
-/* .page-4{
+/* .page-5{
 } */
-.page-4 .container{
+.page-5 .container{
     padding: 12px 12px;
 }
-.page-4 .title{
+.page-5 .title{
     background-color: #000000;
     background-image: url("../images/h-fundo.png");
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-.page-4 .title .sm{
+.page-5 .title .sm{
     font-weight: 800;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 7px #ffffff4b;
@@ -24,19 +24,19 @@
     position:absolute;
     bottom: 10%;
 } 
-.page-4 .title .logo{
+.page-5 .title .logo{
     margin: 0;
 }
-.page-4 .title .logo img{
+.page-5 .title .logo img{
     background: none;
     border: none;
     min-width: 300px;
 }
-.page-4 .title .intro {
+.page-5 .title .intro {
     background-color: rgba(255, 255, 255, 0.45);
     border-radius: 50px;
 }
-.page-4 .title a{
+.page-5 .title a{
     position: absolute;
     bottom: 1%;
     font-size: 50px;
@@ -47,25 +47,25 @@
     border-radius: 50px;
     outline: none;
 }
-.page-4 .title a i {
+.page-5 .title a i {
     position: absolute;
     bottom: 10px;
     left: 10px;
 }
-.page-4 .title a:hover{
+.page-5 .title a:hover{
     color: rgb(255, 255, 255);
 }
-.page-4 .card{
+.page-5 .card{
     margin: 5px;
     background-color: #ed9aa2;
 }
 /* mvv */
-.page-4 .mvv .card{
+.page-5 .mvv .card{
     width: 20rem;
     padding: 10px;
     margin-bottom: 25px;
 }
-.page-4 .mvv .card div{
+.page-5 .mvv .card div{
     width: 46px;
     height: 46px;
     font-size:x-large;
@@ -74,50 +74,50 @@
     border-radius: 50px;
     border: 1px solid #212728;
 }
-.page-4 .mvv h5{
+.page-5 .mvv h5{
     margin-top: 15px;
 }
-.page-4 .mvv li i{
+.page-5 .mvv li i{
     margin-right: 10px;
 }
 
 /* integrantes */
-.page-4 .integrantes{
+.page-5 .integrantes{
     align-items: center;
 }
-.page-4 .integrantes .card{
+.page-5 .integrantes .card{
     width: 13rem;
 }
-.page-4 .integrantes .card a{
+.page-5 .integrantes .card a{
     margin: 2px;
 }
-.page-4 .card label,
-.page-4 .integrantes .card a{
+.page-5 .card label,
+.page-5 .integrantes .card a{
     border: 1px solid #212728;
     color: rgb(214, 214, 214);
 }
-.page-4 .integrantes .card a{
+.page-5 .integrantes .card a{
     font-size: 1.2rem;
 }
-.page-4 .integrantes .card-body{
+.page-5 .integrantes .card-body{
     padding-bottom: 0;
 }
-.page-4 .card-arq img{
+.page-5 .card-arq img{
     min-height: 100%;
 }
-.page-4 .integrantes .card img:hover{
+.page-5 .integrantes .card img:hover{
     transform: scaleX(-1);
 }
 
 @media (max-width:459px) {
-    .page-4 .integrantes .card{
+    .page-5 .integrantes .card{
         width: 10rem;
     }
    
 }
 
 @media (min-width:1450px) {
-    .page-4 .title{
+    .page-5 .title{
         background-position-x: center;    
         background-position-y: 1%;    
     }
