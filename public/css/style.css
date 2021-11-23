@@ -4,10 +4,10 @@
     scrollbar-color: #e4717c rgba(255, 255, 255, 0.5); */
 }
 body{
-     background-color: #e4717c;
+     background-color: #ffb1b9;
 } 
 header nav{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
 }  
 label{
     cursor: pointer;
@@ -17,7 +17,7 @@ ul.navbar-nav{
 }
 nav ul label{
     padding: 8px;
-    color: rgb(154,154,154);
+    color: rgb(71, 71, 71);
     font-weight: 500;
     margin-right: 20px;
 }
@@ -44,19 +44,6 @@ footer .backT{
 footer .backT:hover{
     color:rgb(0, 0, 0);
 }
-/* body::-webkit-scrollbar {
-    width: 15px;               /* width of the entire scrollbar */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.5);        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #e4717c;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid rgba(255, 255, 255, 0.5);  /* creates padding around scroll thumb */
-  } */
 
 /* troca de conteudo main */
 #geral section{
