@@ -1,4 +1,17 @@
-.page-3 .card{ 
+.page-3 div .novAzul{
+    background-color: #55c5ed;
+    max-width: 1000px;
+}
+.page-3 div .novAzul div .card{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 1px solid rgba(116, 116, 116, 0.342); 
+}
+.page-3 div .novAzul div .meio{
+    width: 44%;
+}
+.page-3 .bg-0 .card{ 
     max-width: 500px;
     padding: 5px;
     margin: 5px;
@@ -9,15 +22,10 @@
     height: 315px;
     margin: 10px;
 }
-.novAzul{
-    background-color: #55c5ed;
-}
-.novAzul div .card{
-    margin: 5px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.301);
-    border: 1px solid rgba(116, 116, 116, 0.342);
-    
+@media (max-width:540px) {
+    .page-3 div .novAzul div .meio{
+        width: 88%;
+    }
 }
 @media (max-width:700px) {
     .page-3 iframe{
