@@ -44,7 +44,22 @@ footer .backT{
 footer .backT:hover{
     color:rgb(0, 0, 0);
 }
-
+ 
+/* pagina 1 */
+.page-1 .botoes label{
+    background-color: none;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: 7px;
+    margin: 7px;
+    font-weight: 600;
+    width: 10rem;
+    text-align: center;
+}
+.page-1 .botoes label:hover{
+    background-color: #d0519e;
+    border: #d0519e;
+}
 /* troca de conteudo main */
 #geral section{
     display: none;
