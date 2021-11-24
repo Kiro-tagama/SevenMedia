@@ -9,6 +9,16 @@
     height: 315px;
     margin: 10px;
 }
+.novAzul{
+    background-color: #55c5ed;
+}
+.novAzul div .card{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 1px solid rgba(116, 116, 116, 0.342);
+    
+}
 @media (max-width:700px) {
     .page-3 iframe{
         width: 80%;
