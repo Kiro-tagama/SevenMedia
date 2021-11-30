@@ -12,12 +12,26 @@
     width: 44%;
 }
 .page-3 .bg-0 .card{ 
-    max-width: 500px;
+    width: 30rem;
     padding: 5px;
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.3);
 }
-.page-3 iframe{
+.page-3 .botoes {
+    background-color: none;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: 7px;
+    margin: 7px;
+    font-weight: 600;
+    
+    text-align: center;
+}
+.page-3 .botoes:hover{
+    background-color: #ed9aa2;
+    border: 2px solid #ed9aa2;
+}
+iframe{
     width: 560px;
     height: 315px;
     margin: 10px;
@@ -28,7 +42,7 @@
     }
 }
 @media (max-width:700px) {
-    .page-3 iframe{
+    iframe{
         width: 80%;
         height: 80%;
     }
