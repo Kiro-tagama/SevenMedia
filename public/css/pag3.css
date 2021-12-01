@@ -17,6 +17,7 @@
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.3);
 }
+.page-4 .botoes,
 .page-3 .botoes {
     background-color: none;
     border: 2px solid black;
@@ -27,6 +28,7 @@
     
     text-align: center;
 }
+.page-4 .botoes:hover,
 .page-3 .botoes:hover{
     background-color: #ed9aa2;
     border: 2px solid #ed9aa2;
